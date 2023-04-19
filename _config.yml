@@ -10,7 +10,7 @@ mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Joy yahshua # author name
+  name: laggy-tux # author name
   bio: >- # tell to the world
     average linux user
   username: laggy-tux # general username
