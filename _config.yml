@@ -1,5 +1,5 @@
 # Site settings
-title: Joy yahshua # site title
+title: laggy-tux! # site title
 description: >- # site description
   laggy-tux's official website for personal projects and blogs
 lang: en-US # default lang
@@ -21,7 +21,7 @@ author:
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
-url: "https://klise.now.sh" #
+url: "https://laggy-tux.github.io" #
 baseurl:
 permalink: /:title/
 google_analytics: # leave it blank if not wish
