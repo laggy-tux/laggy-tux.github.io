@@ -4,26 +4,78 @@ title:  "tokyo night openbox!"
 date:   2023-03-24 09:29:20 +0700
 categories: ricing
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+personal tokyo night theming :)
 
-Jekyll requires blog post files to be named according to the following format:
+**note**:
+none of this are my own. all the credit goes to the creaters of the various files used in this rice\
 
-`YEAR-MONTH-DAY-title.MARKUP`
+**applyscript is now available:**(would reckon to avoid this)
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+to install:
+> open thunar and go to the place u have downloaded the file
 
-Jekyll also offers powerful support for code snippets:
+> "open terminal here" 
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+> now:
+```bash 
+chmod +x apply.sh
+```
+> to run the script:
+```bash
+./apply.sh
+```
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+should work!
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+*details*:
+> wm: openbox
+
+> distro: archcraft
+
+> gtk3 theme: tokyo night darker
+
+> bar: polybar
+
+> menu: rofi
+
+*dependencies*:
+
+>rofi:https://wiki.archlinux.org/title/rofi
+
+>polybar:https://github.com/polybar/polybar
+
+> grub theme (optional): https://github.com/mino29/tokyo-night-grub
+
+>nighttab: (for the chrome/edge/firefox home page theming): https://github.com/zombieFox/nightTab
+
+
+
+![image](https://user-images.githubusercontent.com/85402808/227523357-daffef52-47b7-457b-9c72-83257e5a4b33.png)
+![Screenshot_2023-03-24-18-45-03_1600x900](https://user-images.githubusercontent.com/85402808/227532242-04b0598d-c553-483f-a8e7-d8821639065c.png)
+
+*How To*:
+
+- paste the needed files inside the given folders
+
+  > eg. the tokyo theme : .config/openbox-themes/*tokyo*(this is the file stucture on archcraft,i guess its the same for other distros with openbox)
+
+- install the given gtk theme and paste it in */usr/share/themes/*
+
+- now for the browser theming install nighttab's plugin: go to settings/data/import file and import the .json file and voila the config will be updated!
+
+- to download the grub theme if u need that aswell
+
+- apply everything 
+
+retart to see the magic
+
+
+# tokyo-night 2.0!
+
+its mostly the same with a little changes 
+
+![Screenshot_2023-04-12-13-51-17_1600x900](https://user-images.githubusercontent.com/85402808/231404571-615ebe4d-8ad7-4409-85f5-a1674eed8978.png)
+
+![Screenshot_2023-04-12-13-51-40_1600x900](https://user-images.githubusercontent.com/85402808/231404638-4a299f40-d330-45a4-a710-9706940ee200.png)
+
+do the same and replace the openbox and openbox-themes folder 
