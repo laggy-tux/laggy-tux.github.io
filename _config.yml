@@ -12,7 +12,7 @@ mode: dark # default theme "dark" | "light"
 author:
   name: laggy-tux # author name
   bio: >- # tell to the world
-    average linux user
+    novice linux user
   username: laggy-tux # general username
   github: laggy-tux # github username
   twitter: joy_yahshua # twitter username
