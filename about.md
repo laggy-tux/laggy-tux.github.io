@@ -8,11 +8,13 @@ comments: false
 
 average GNU/linux user who is in high school and wishes to persue being an enterpreneur 
 
-visit my [github](https://github.com/laggy-tux/) and youtube coming soon .
+
 
 
 
 **may u needs ✨**
 
 - {{ site.author.email }}
-- github.com/{{ site.author.github }}
+- [github](https://github.com/laggy-tux/) 
+- [reddit](https://www.reddit.com/user/laggy-boy16)
+- [twitter](https://twitter.com/joy_yahshua)
