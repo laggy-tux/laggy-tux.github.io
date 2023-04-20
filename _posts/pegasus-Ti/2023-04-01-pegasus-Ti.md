@@ -63,7 +63,7 @@ opening pegasus will show this error if u dont have everything installed
 
 - go to downloads, extract it and open the folder
 
-- now for commands:
+now for commands:
   ```bash
    sudo pacman -S mono
   ```
