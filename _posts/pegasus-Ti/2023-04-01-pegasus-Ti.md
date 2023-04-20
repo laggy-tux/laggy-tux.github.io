@@ -4,7 +4,7 @@ date: 2023-04-01 10:00:00 +07:00
 tags: [retro, emulation]
 description: a simple terminal installer for pegasus and various dependencies for  arch and debian based system.
 ---
-**check out the repo [here!](https://github.com/laggy-tux/pegasus-Ti)**
+**download the release [here!](https://github.com/laggy-tux/pegasus-Ti/releases/tag/pegasus-ti)**
 
 *what you need to know*
 
