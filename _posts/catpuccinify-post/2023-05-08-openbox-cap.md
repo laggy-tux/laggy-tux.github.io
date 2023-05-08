@@ -9,6 +9,22 @@ catpuccin rice for openbox
 
 # catpuccinify
 
+**dependencies**
+
+> geany- text editor
+
+> dconf - shortcuts
+
+> dunst - notifications
+
+> nitrogen - wallpaper
+
+> thunar - file explorer
+
+> polybar - duh
+
+> rofi - menu
+
 **get the dots [here!](https://github.com/laggy-tux/catppuccinify/releases/tag/ricing)**
 
 **note**:
