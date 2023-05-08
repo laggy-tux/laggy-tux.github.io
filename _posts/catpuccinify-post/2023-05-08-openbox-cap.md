@@ -67,3 +67,12 @@ and to run it:
 
 - to download the [grub theme](https://github.com/catppuccin/grub) if u need that aswell
 
+**shotcuts i use**
+
+*super*+w - spotify (desktop 3)
+
+*super*+f - thunar  (desktop 2)
+
+*super*+e - geany   (desktop 3)
+
+*super*+x - exit menu
