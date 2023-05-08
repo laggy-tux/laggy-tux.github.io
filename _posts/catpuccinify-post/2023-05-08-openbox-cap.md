@@ -25,7 +25,7 @@ catpuccin rice for openbox
 
 > rofi - menu
 
-**get the dots [here!](https://github.com/laggy-tux/catppuccinify/releases/tag/ricing)**
+# **get the dots [here!](https://github.com/laggy-tux/catppuccinify/releases/tag/ricing)**
 
 **note**:
 none of this are my own. all the credit goes to the creaters of the various files used in this rice
