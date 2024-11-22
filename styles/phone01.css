@@ -1,0 +1,22 @@
+#phone01 img {
+    position: absolute;
+    left: -2%;
+    width: 104%;
+    top: -2%;
+    height: 104%;
+    object-fit: cover;
+    filter: grayscale(80%);
+    transition: 0.7s filter, 0.7s scale, 0.7s rotate;
+}
+
+#phone01 img:hover {
+    scale: 0.97;
+    filter: grayscale(0%);
+}
+
+@media (max-aspect-ratio: 14/9) {
+    #phone01 img {
+        width: 114%;
+        object-position: 0% 35%;
+    }
+}

@@ -1,0 +1,26 @@
+:root {
+    --background: #000000;
+    --color-on-background: #f7f3f3;
+    --color-accent: #e65b3c;
+    --color-accent-variant: #C24327;
+    --color-secondary: #c92d2d;
+    --color-tertiary: #ac2121;
+    --color-accent-complementary: #0F1927;
+    --color-secondary-complementary: #3B0826;
+    --color-container: #080808;
+    --color-outline: #1d1c1c;
+    --perspective: 70vmax;
+}
+
+.pointer-cursor {
+    cursor: pointer;
+}
+
+p,
+h1,
+h2,
+h3,
+div {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+}

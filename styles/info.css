@@ -1,0 +1,78 @@
+#info {
+    height: 100%;
+    user-select: none;
+    pointer-events: none;
+    width: 100%;
+    transition: 0s;
+}
+
+#info #lindholmen {
+    cursor: pointer;
+    pointer-events: all;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#info #location {
+    display: flex;
+    gap: 0.7vmin;
+    align-items: center;
+    position: absolute;
+    padding: 1vmin;
+    padding-right: 1.5vmin;
+    margin: 2vmin;
+    right: 0;
+    font-size: 1.5vmin;
+    font-weight: 300;
+    border-radius: 100vmax;
+    background: var(--color-accent-variant);
+    color: var(--color-on-background);
+}
+
+#info #location>img {
+    width: 2vmin;
+    height: 2vmin;
+}
+
+@media (max-aspect-ratio: 4/5) {}
+
+@media (min-aspect-ratio: 2/1) {}
+
+@media (max-aspect-ratio: 14/9) {}
+
+@media (max-aspect-ratio: 23/18) {
+    #info #location {
+        gap: 0.8vmin;
+        padding: 1.2vmin;
+        padding-right: 1.8vmin;
+        margin: 2.4vmin;
+        font-size: 1.8vmin;
+    }
+
+    #info #location>img {
+        width: 2.4vmin;
+        height: 2.4vmin;
+    }
+}
+
+@media (max-aspect-ratio: 1/1) {}
+
+@media (max-aspect-ratio: 7/9) {}
+
+@media (max-aspect-ratio: 2/3) {
+    #info #location {
+        gap: 1.3vw;
+        padding: 2vw;
+        padding-right: 3vw;
+        margin: 4.2vw;
+        font-size: 3vw;
+    }
+
+    #info #location>img {
+        width: 4vw;
+        height: 4vw;
+    }
+}

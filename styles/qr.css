@@ -1,0 +1,27 @@
+#qr {
+    overflow: hidden;
+}
+
+#qr,
+#qr * {
+    pointer-events: none;
+    user-select: none;
+}
+
+#qr img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#qr-gradient-canvas {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    --gradient-color-1: var(--color-accent);
+    --gradient-color-2: var(--color-secondary);
+    --gradient-color-3: var(--color-accent-complementary);
+    --gradient-color-4: var(--color-secondary-complementary);
+}

@@ -1,0 +1,172 @@
+#stario {
+    user-select: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#stario * {
+    pointer-events: none;
+}
+
+#stario-gradient-canvas {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    --gradient-color-1: var(--color-accent);
+    --gradient-color-2: var(--color-secondary);
+    --gradient-color-3: var(--color-accent-complementary);
+    --gradient-color-4: var(--color-secondary-complementary);
+}
+
+#stario img {
+    width: 9.57vmin;
+    height: 8.7vmin;
+}
+
+#stario p {
+    font-family: "Unbounded", sans-serif;
+    margin: 0;
+    font-weight: 300;
+    width: 100%;
+    font-size: 6.96vmin;
+}
+
+#stario-links {
+    margin-top: 1.5vmin;
+    width: 100%;
+    height: 3.48vmin;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2.61vmin;
+}
+
+#stario-links>img {
+    opacity: 0.5;
+    pointer-events: initial !important;
+    width: 3.48vmin;
+    height: 3.48vmin;
+    transition: opacity 1s;
+}
+
+#stario-links>img:hover {
+    opacity: 1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #stario img {
+        width: 5.385vw;
+        height: 4.9vw;
+    }
+
+    #stario p {
+        font-size: 3.92vw;
+    }
+
+    #stario-links {
+        margin-top: 0.735vw;
+        height: 1.96vw;
+        gap: 1.47vw;
+    }
+
+    #stario-links>img {
+        width: 1.96vw;
+        height: 1.96vw;
+    }
+}
+
+@media (max-aspect-ratio: 14/9) {
+    #stario img {
+        width: 9vmin;
+        height: 8vmin;
+    }
+
+    #stario p {
+        font-size: 6.5vmin;
+    }
+
+    #stario-links {
+        margin-top: 1vmin;
+        height: 3vmin;
+        gap: 2vmin;
+    }
+
+    #stario-links>img {
+        width: 4vmin;
+        height: 4vmin;
+    }
+}
+
+@media (max-aspect-ratio: 23/18) {
+    #stario img {
+        width: 11vmin;
+        height: 10vmin;
+    }
+
+    #stario p {
+        font-size: 8vmin;
+    }
+
+    #stario-links {
+        margin-top: 1.5vmin;
+        height: 4vmin;
+        gap: 3vmin;
+    }
+
+    #stario-links>img {
+        width: 4vmin;
+        height: 4vmin;
+    }
+}
+
+@media (max-aspect-ratio: 1/1) {
+    #stario img {
+        width: 11vmin;
+        height: 10vmin;
+    }
+
+    #stario p {
+        font-size: 8vmin;
+    }
+
+    #stario-links {
+        margin-top: 1.5vmin;
+        height: 4vmin;
+        gap: 3vmin;
+    }
+
+    #stario-links>img {
+        width: 4vmin;
+        height: 4vmin;
+    }
+}
+
+@media (max-aspect-ratio: 7/9) {}
+
+@media (max-aspect-ratio: 2/3) {
+    #stario img {
+        width: 18vw;
+        height: 16vw;
+    }
+
+    #stario p {
+        font-size: 14vw;
+    }
+
+    #stario-links {
+        margin-top: 3vw;
+        height: 8vw;
+        gap: 5vw;
+    }
+
+    #stario-links>img {
+        width: 8vw;
+        height: 8vw;
+    }
+}

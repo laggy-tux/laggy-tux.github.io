@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Răzvan Albu</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<link rel="preload"
+		href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+		as="style">
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap">
+
+	<link rel="preload" href="/styles/root.css" as="style">
+	<link rel="stylesheet" href="/styles/root.css">
+
+	<link rel="preload" href="/styles/main.css" as="style">
+	<link rel="stylesheet" href="/styles/main.css">
+
+	<link rel="preload" href="/styles/info.css" as="style">
+	<link rel="preload" href="/styles/interview.css" as="style">
+	<link rel="preload" href="/styles/landing.css" as="style">
+	<link rel="preload" href="/styles/nasa.css" as="style">
+	<link rel="preload" href="/styles/phone01.css" as="style">
+	<link rel="preload" href="/styles/phone02.css" as="style">
+	<link rel="preload" href="/styles/profile.css" as="style">
+	<link rel="preload" href="/styles/qr.css" as="style">
+	<link rel="preload" href="/styles/social.css" as="style">
+	<link rel="preload" href="/styles/spotify.css" as="style">
+	<link rel="preload" href="/styles/stario-stats.css" as="style">
+	<link rel="preload" href="/styles/stario.css" as="style">
+	<link rel="preload" href="/styles/university.css" as="style">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script type="module" src="/scripts/index.js"></script>
+</head>
+
+<body class="cell">
+	<div id="landing"></div>
+	<div id="content"></div>
+
+	<script>
+		$(function () {
+			$("#landing").load("/stubs/landing.html", () => {
+				$("#content").load("/stubs/content.html", () => {
+					$(document).ready(prepare);
+				})
+			});
+		});
+	</script>
+</body>
+
+</html>
