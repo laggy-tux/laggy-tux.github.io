@@ -24,10 +24,10 @@ function displayProfile() {
     placeholder.style.display = "none"; // Hide placeholder if applicable
 
     // Set the profile image source
-    profileImageContainer.src = "https://avatarfiles.alphacoders.com/109/109329.gif"; // Replace with the URL of your image
+    profileImageContainer.src = "https://preview.redd.it/ccg4meb5oyq91.jpg?auto=webp&s=1101dbdedd9fc05beca1341aa0675731070b8378"; // Replace with the URL of your image
     profileImageContainer.alt = "Your Profile Picture"; // Alt text for accessibility
 
-    spotify.onclick = () => window.open("https://your-profile-link.com"); // Replace with your profile URL
+    spotify.onclick = () => window.open("https://open.spotify.com/user/31weskjglo64ivodsp2fk3x44myi"); // Replace with your profile URL
 }
 
 // Call the function immediately to set up the profile display
