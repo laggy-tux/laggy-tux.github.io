@@ -9,7 +9,7 @@ const placeholder = document.getElementById("spotify-placeholder");
 function displayProfile() {
     sessionStatus.innerHTML = "My Profile";
     song.innerHTML = "Joy Yahshua"; // Replace with your name
-    artists.innerHTML = "check out my playlists!"; // Replace with a brief description or role
+    artists.innerHTML = "  check out my playlists!"; // Replace with a brief description or role
     albumContainerParent.style.display = "none"; // Hide album container
     placeholder.style.display = "none"; // Hide placeholder if applicable
 
