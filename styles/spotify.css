@@ -5,8 +5,7 @@
     display: flex;
     box-sizing: border-box;
     align-items: flex-end;
-    filter: grayscale(0%)
-        /*without it, backdrop won't work*/
+    filter: grayscale(0%);
 }
 
 .container:has(#spotify) {
@@ -19,27 +18,21 @@
     user-select: none;
 }
 
-#spotify-album-container {
+#spotify-static-image {
     transition: 1s;
     pointer-events: initial;
     width: 100%;
     height: 100%;
     scale: 1.1;
     filter: grayscale(80%) opacity(0.3) blur(2px);
+    background-image: url('your-image-url.jpg'); /* Replace with your static image URL */
+    background-size: cover;
+    background-position: center;
 }
 
-#spotify-album-container:hover {
+#spotify-static-image:hover {
     scale: 1;
     filter: grayscale(20%) opacity(0.9);
-}
-
-.spotify-album {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    object-fit: cover;
-    transition: 1s;
-    z-index: -1;
 }
 
 #spotify-info {
@@ -157,13 +150,10 @@
     }
 }
 
-@media (min-aspect-ratio: 2/1) {}
-
 @media (max-aspect-ratio: 14/9) {
     #spotify-text>p {
         display: -webkit-box;
     }
-
 
     .container:has(#spotify) {
         min-width: 27vh;
@@ -215,8 +205,6 @@
         min-height: 24vh;
     }
 }
-
-@media (max-aspect-ratio: 7/9) {}
 
 @media (max-aspect-ratio: 2/3) {
     #spotify-text {
