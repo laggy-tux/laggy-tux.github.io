@@ -25,7 +25,7 @@
     height: 100%;
     scale: 1.1;
     filter: grayscale(80%) opacity(0.3) blur(2px);
-    background-image: url('your-image-url.jpg'); /* Replace with your static image URL */
+    background-image: url('https://github.com/laggy-tux/laggy-tux.github.io/blob/main/images/doreamon.jpg'); /* Replace with your static image URL */
     background-size: cover;
     background-position: center;
 }
